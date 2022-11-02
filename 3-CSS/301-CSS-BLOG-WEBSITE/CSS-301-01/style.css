@@ -1,1 +1,61 @@
 /* start your css here */
+.box{
+    position: relative;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 295px;
+    
+}
+.box1{
+    
+    height: 150px;
+    width: 250px;
+    background-color: rgb(161, 161, 161);
+    display: flex;
+     justify-content: center;
+     align-content: center;
+     font-size: 35px;
+     align-items: center;
+     
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(59, 59, 59);
+    transform: skewX(-20deg);
+    position: absolute;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    align-items: center;
+}
+.box2 span{
+    display: block;
+    transform: skewX(-20deg);
+}
+.box3{
+    height: 150px;
+    width: 200px;
+    font-size: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+}
+p{
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+h2{
+    text-align: center;
+}
+.youtube{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
