@@ -1,1 +1,40 @@
-/* start your css here */
+.boxed{
+    height: 50px;
+    width: 800px;
+  
+    margin-top: 10px;
+    margin-left: 20px;
+   background-color: rgb(1, 5, 23);
+   display: flex;
+   align-items: center;
+
+}
+.nav{
+   
+   
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.nav li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #bababa;
+        font-weight: 500;
+}
+.nav li a:hover{
+    color: white;
+    font-weight: 700;
+  }
+  
+  .nav li a img{
+    height: 16px;
+
+  }
+  .nav li a img:hover{
+    height: 20px;
+
+  }
+  
