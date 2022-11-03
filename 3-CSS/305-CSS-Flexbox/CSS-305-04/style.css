@@ -1,1 +1,73 @@
 /* start your styling here  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(61, 61, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.plus{
+    color: rgb(255, 204, 0);
+    font-weight: 900;
+}
+.logo p{
+    color: white;
+    position: relative;
+    top: -5px;
+}
+.search {
+    background-color: white;
+    padding: 8px;
+    width: 420px;
+    height: 20px;
+    margin: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(61, 61, 214);
+    /* box-shadow: -7px -7px 10px rgba(255, 255, 255, 255); */
+    border-radius: 2px;
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.loginbtn{
+    padding: 5px 40px;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: rgb(61, 61, 214);
+}
+.navlink{
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.topproduct{
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+   border-bottom:  1px solid black;
+   /* flex: 1; */
+}
+.product{
+    width: 80px;
+    height:  112px;
+    flex: 1;
+}
+.product img{
+    width:64px;
+    height: 64px;
+}
+.product p{
+    font-weight: 550;
+}
