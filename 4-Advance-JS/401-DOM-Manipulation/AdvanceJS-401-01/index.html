@@ -4,9 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>1st assignment</title>
   </head>
   <body>
-    Start your code here
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        height: 30px;
+      "
+    >
+      <input type="text" style="border: 2px solid black" />
+    </div>
+    <div style="display: flex; justify-content: center">
+      <p id="something"></p>
+    </div>
+    <script>
+      document
+        .getElementsByTagName("input")[0]
+        .addEventListener("keyup", print);
+      var inputText = document.getElementsByTagName("input")[0];
+      function print() {
+        document.getElementById("something").innerText = `${inputText.value}`;
+      }
+    </script>
   </body>
 </html>
